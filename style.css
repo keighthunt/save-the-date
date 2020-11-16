@@ -62,6 +62,10 @@ section {
     padding: 20px;
 }
 
+.flip-card-front.done {
+    display: none;
+}
+
 .flip-card-front img {
     height: auto;
     width: 100%;

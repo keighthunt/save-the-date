@@ -6,11 +6,14 @@
         card.classList.add( 'active' );
     }, 4000);
 
+    setTimeout(function(){ 
+        card.classList.add( 'done' );
+    }, 5500);
+
     setHeight();
     window.addEventListener('resize', setHeight);
 
     function setHeight() {
-        console.log(card.clientWidth);
         var width = card.clientWidth;
         var rat1 = 87;
         var rat2 = 100;
