@@ -62,7 +62,7 @@ section {
     padding: 20px;
 }
 
-.flip-card-front.done {
+.done .flip-card-front {
     display: none;
 }
 
